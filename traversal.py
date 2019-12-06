@@ -9,7 +9,7 @@ def traverse(node):
 
 
 def doTraverse(fromNode, toNode):
-    print (fromNode, toNode)
+    print(fromNode, toNode)
 
     if toNode != None and toNode.isFinish == True:
         return 1

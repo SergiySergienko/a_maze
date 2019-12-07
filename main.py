@@ -5,6 +5,6 @@ if __name__ == "__main__":
 
     rootNode = Node(False, False)
     linkNodes(rootNode, 5, 0)
-    setFinishNode(rootNode, 4, 4)
+    # setFinishNode(rootNode, 4, 4)
 
     print(rootNode)

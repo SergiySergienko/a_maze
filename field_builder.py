@@ -1,6 +1,12 @@
 from node import Node
 from random import getrandbits
 
+# if current index < max index than
+# set my right node
+# link my current
+# set my down node
+
+
 def linkNodes(node, maxIndx, currIndx):
     if currIndx <= maxIndx:
         node.setRight(linkNodes(Node(getrandbits(1), False), maxIndx, currIndx + 1))
